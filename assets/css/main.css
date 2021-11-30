@@ -3276,7 +3276,7 @@ body.is-preload #header:after {
   /* Header */
 
   #header {
-    padding: 6em 0 6em 0;
+    padding: 5em 0 5em 0;
   }
 }
 
@@ -3468,7 +3468,7 @@ body.is-preload #header:after {
   /* Footer */
 
   #footer {
-    padding: 3em 1.5em 3em 1.5em;
+    padding: 2em 1em 2em 1em;
   }
 }
 
