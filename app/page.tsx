@@ -28,6 +28,15 @@ export default function Home() {
                         a project together.
                     </p>
                 </div>
+                <div>
+                    <a
+                        href="/resume.pdf"
+                        download="Victor-He-Resume.pdf"
+                        className="inline-block rounded-md border border-current px-4 py-2 text-sm font-medium hover:opacity-70"
+                    >
+                        Download Resume
+                    </a>
+                </div>
             </main>
         </div>
     );
