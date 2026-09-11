@@ -21,7 +21,7 @@ Raw notes — capture anything here, refine into `page.tsx` later.
 - Destiny Plus: any architecture decision you're proud of, or would do differently now?
   - Setting up the infrastructure to seed my database for tests sparked an interest in automation and infrastructure.
 - Did the EMT/firefighter background show up in how you approached the program — pressure handling, triage instincts, teamwork under stress?
-   - Always vocalize concerns early, step up to take a leadership position if others seem unsure, know when to back down and allow others to take the lead, falling to the systems I set for myself when challenges arose.
+  - Always vocalize concerns early, step up to take a leadership position if others seem unsure, know when to back down and allow others to take the lead, falling to the systems I set for myself when challenges arose.
 
 ## Photos/media (for later)
 - Legacy repo already has some assets worth reusing: `assets/css/images/destiny-plus-ss.png`, `koko-breathing.gif`, `static-kevin.png` — in `github.com/VictorHeDev/portfolio-legacy`

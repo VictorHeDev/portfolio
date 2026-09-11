@@ -15,11 +15,11 @@ export default function BootcampPage() {
                         After 2.5 years working through COVID as an EMT and firefighter,
                         I started App Academy&apos;s full-stack immersive with no
                         engineering background. The pace was immediate: daily pairing, a
-                        cohort of about 30, and two exams where scoring below 80% meant
+                        cohort of about 30, and 2 exams where scoring below 80% meant
                         expulsion. My path went from toy Ruby programs into Rails —
                         learning the MVC pattern connected to a PostgreSQL database — and
                         from there into JavaScript, which is where I found my footing.
-                        Three months later I&apos;d shipped three full-stack apps, each
+                        3 months later I&apos;d shipped 3 full-stack apps, each
                         pushing into different territory.
                     </p>
                 </div>
@@ -41,7 +41,7 @@ export default function BootcampPage() {
                         <h2 className="text-xl font-semibold">Koko</h2>
                         <p className="text-base leading-7">
                             A mental health companion app, built on the MERN stack
-                            (MongoDB, Express, React, Node) with a team of four. I served
+                            (MongoDB, Express, React, Node) with a team of 4. I served
                             as Frontend Lead, running team meetings on the app&apos;s
                             overall design and theme — my first taste of technical
                             leadership.
@@ -50,7 +50,7 @@ export default function BootcampPage() {
                     <div>
                         <h2 className="text-xl font-semibold">Boba Bae</h2>
                         <p className="text-base leading-7">
-                            A 2D platformer built with zero external game engines:
+                            A 2D platformer built with 0 external game engines:
                             vanilla JavaScript, HTML5, CSS3, and the Canvas API, inspired
                             by the Subtle Asian Traits community. It pulled in far more
                             math and physics than I expected — polygon collision,
@@ -80,7 +80,7 @@ export default function BootcampPage() {
                     <div>
                         <h2 className="text-xl font-semibold">Giving back</h2>
                         <p className="text-base leading-7">
-                            Two months before I started at Bloomberg, App Academy
+                            2 months before I started at Bloomberg, App Academy
                             offered me a 1.5-month teaching assistant role. I helped with
                             lesson planning and unstuck students who were exactly where
                             I&apos;d been a few months earlier — a way to give back to a

@@ -16,7 +16,7 @@ export default function EsgScalingPage() {
                         investors evaluate companies (and countries) beyond pure
                         financials. Bloomberg&apos;s ESG scoring started as ad hoc Python
                         scripts, manually run once a month against ~3,000 companies.
-                        Over three years across two ESG teams, I helped turn that into
+                        Over 3 years across 2 ESG teams, I helped turn that into
                         an automated pipeline running nightly at 5x the coverage, then
                         rebuilt the downstream system that consumed it for 151
                         countries&apos; worth of climate risk data.
