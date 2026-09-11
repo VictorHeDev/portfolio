@@ -7,6 +7,19 @@ export default function ProjectsPage() {
                 <h1 className="text-3xl font-semibold tracking-tight">Projects</h1>
                 <div className="flex flex-col gap-4">
                     <Link
+                        href="/projects/fleet-automation"
+                        className="rounded-md border border-current p-4 hover:opacity-70"
+                    >
+                        <h2 className="text-lg font-medium">
+                            Fleet Automation at Bloomberg
+                        </h2>
+                        <p className="text-sm text-zinc-500 dark:text-tokyonight-storm-comment">
+                            Leading Go- and Kafka-driven automation for 100,000+ machines
+                            — from replacing manual router upgrades to safely rolling out
+                            security campaigns across Bloomberg infrastructure.
+                        </p>
+                    </Link>
+                    <Link
                         href="/projects/esg-scaling"
                         className="rounded-md border border-current p-4 hover:opacity-70"
                     >
