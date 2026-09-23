@@ -38,6 +38,15 @@ export default function Home() {
                         creative muscles. Feel free to reach out if you&apos;d like to talk or work on
                         a project together.
                     </p>
+                    <p>
+                        Today, I&apos;m a Senior Software Engineer at Bloomberg, building fleet-
+                        automation systems that help infrastructure teams safely operate at scale.
+                        My work has ranged from automated data pipelines to campaigns spanning
+                        thousands of machines, but I&apos;m consistently drawn to the same kind of
+                        problem: making complex work more reliable, observable, and easier for
+                        people to run. The instinct to help others that brought me to healthcare
+                        still shapes how I approach engineering.
+                    </p>
                 </div>
                 <div>
                     <a
