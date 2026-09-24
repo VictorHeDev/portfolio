@@ -7,6 +7,21 @@ export default function ProjectsPage() {
                 <h1 className="text-3xl font-semibold tracking-tight">Projects</h1>
                 <div className="flex flex-col gap-4">
                     <Link
+                        href="/projects/homelab"
+                        className="rounded-md border border-current p-4 hover:opacity-70"
+                    >
+                        <h2 className="text-lg font-medium">
+                            Ubuntu Homelab
+                        </h2>
+                        <p className="text-sm text-zinc-500 dark:text-tokyonight-storm-comment">
+                            Tinkering with self-hosted Docker services to marginally improve
+                            my life and to spark curiousity in tech outside of my regular 9-5.
+                            Aside from using my server as Network Attached Storage, I'm also
+                            building with local LLMs and diving deeper into the world of
+                            networking and Linux.
+                        </p>
+                    </Link>
+                    <Link
                         href="/projects/fleet-automation"
                         className="rounded-md border border-current p-4 hover:opacity-70"
                     >
