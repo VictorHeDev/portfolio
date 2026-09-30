@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <div className="flex flex-col flex-1 items-center justify-center font-sans">
             <main className="flex flex-1 w-full max-w-3xl flex-col gap-6 py-32 px-16">
-                <div className="flex items-center gap-8">
+                <div className="flex w-full items-center gap-8 rounded-2xl border border-current/10 bg-zinc-50 p-6 dark:bg-tokyonight-storm-bg-highlight">
                     <Image
                         src="/icon.png"
                         alt="Illustrated avatar of Victor He"
