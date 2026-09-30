@@ -1,12 +1,23 @@
+import Image from "next/image";
+
 export default function Home() {
     return (
         <div className="flex flex-col flex-1 items-center justify-center font-sans">
             <main className="flex flex-1 w-full max-w-3xl flex-col gap-6 py-32 px-16">
-                <div>
-                    <h1 className="text-3xl font-semibold tracking-tight">Victor He</h1>
-                    <p className="text-lg text-zinc-500 dark:text-tokyonight-storm-comment">
-                        Software Engineer
-                    </p>
+                <div className="flex w-full items-center gap-8 rounded-2xl border border-current/10 bg-zinc-50 p-6 dark:bg-tokyonight-storm-bg-highlight">
+                    <Image
+                        src="/icon.png"
+                        alt="Illustrated avatar of Victor He"
+                        width={1254}
+                        height={1254}
+                        className="w-[clamp(8.5rem,22vw,11rem)] shrink-0"
+                    />
+                    <div className="border-l border-current/20 pl-6">
+                        <h1 className="text-3xl font-semibold tracking-tight">Victor He</h1>
+                        <p className="text-lg text-zinc-500 dark:text-tokyonight-storm-comment">
+                            Senior Software Engineer
+                        </p>
+                    </div>
                 </div>
                 <div className="flex flex-col gap-4 text-base leading-7">
                     <p>
@@ -26,6 +37,15 @@ export default function Home() {
                         tinkering with devices. I&apos;m a problem solver who loves flexing my
                         creative muscles. Feel free to reach out if you&apos;d like to talk or work on
                         a project together.
+                    </p>
+                    <p>
+                        Today, I&apos;m a Senior Software Engineer at Bloomberg, building fleet-
+                        automation systems that help infrastructure teams safely operate at scale.
+                        My work has ranged from automated data pipelines to campaigns spanning
+                        thousands of machines, but I&apos;m consistently drawn to the same kind of
+                        problem: making complex work more reliable, observable, and easier for
+                        people to run. The instinct to help others that brought me to healthcare
+                        still shapes how I approach engineering.
                     </p>
                 </div>
                 <div>
