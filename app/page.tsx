@@ -12,7 +12,7 @@ export default function Home() {
                         </p>
                     </div>
                     <Image
-                        src="/images/avatar.png"
+                        src="/icon.png"
                         alt="Illustrated avatar of Victor He"
                         width={1254}
                         height={1254}
