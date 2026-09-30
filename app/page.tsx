@@ -4,13 +4,7 @@ export default function Home() {
     return (
         <div className="flex flex-col flex-1 items-center justify-center font-sans">
             <main className="flex flex-1 w-full max-w-3xl flex-col gap-6 py-32 px-16">
-                <div className="flex items-center justify-between gap-8">
-                    <div>
-                        <h1 className="text-3xl font-semibold tracking-tight">Victor He</h1>
-                        <p className="text-lg text-zinc-500 dark:text-tokyonight-storm-comment">
-                            Software Engineer
-                        </p>
-                    </div>
+                <div className="flex items-center gap-8">
                     <Image
                         src="/icon.png"
                         alt="Illustrated avatar of Victor He"
@@ -18,6 +12,12 @@ export default function Home() {
                         height={1254}
                         className="w-[clamp(8.5rem,22vw,11rem)] shrink-0"
                     />
+                    <div className="border-l border-current/20 pl-6">
+                        <h1 className="text-3xl font-semibold tracking-tight">Victor He</h1>
+                        <p className="text-lg text-zinc-500 dark:text-tokyonight-storm-comment">
+                            Senior Software Engineer
+                        </p>
+                    </div>
                 </div>
                 <div className="flex flex-col gap-4 text-base leading-7">
                     <p>
