@@ -17,6 +17,24 @@ export default function Home() {
                         <p className="text-lg text-zinc-500 dark:text-tokyonight-storm-comment">
                             Senior Software Engineer
                         </p>
+                        <div className="mt-3 flex gap-4 text-sm">
+                            <a
+                                href="https://github.com/VictorHeDev"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="underline underline-offset-4 hover:opacity-70"
+                            >
+                                GitHub
+                            </a>
+                            <a
+                                href="https://www.linkedin.com/in/victor-he/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="underline underline-offset-4 hover:opacity-70"
+                            >
+                                LinkedIn
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="flex flex-col gap-4 text-base leading-7">
