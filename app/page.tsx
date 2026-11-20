@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Home() {
     return (
         <div className="flex flex-col flex-1 items-center justify-center font-sans">
-            <main className="flex flex-1 w-full max-w-3xl flex-col gap-6 py-32 px-16">
-                <div className="flex w-full items-center gap-8 rounded-2xl border border-current/10 bg-zinc-50 p-6 dark:bg-tokyonight-storm-bg-highlight">
+            <main className="flex flex-1 w-full max-w-3xl flex-col gap-6 pt-12 pb-32 px-6 sm:px-16">
+                <div className="flex w-full flex-col items-center gap-8 rounded-2xl border border-current/10 bg-zinc-50 p-6 sm:flex-row dark:bg-tokyonight-storm-bg-highlight">
                     <Image
                         src="/icon.png"
                         alt="Illustrated avatar of Victor He"
@@ -12,11 +12,29 @@ export default function Home() {
                         height={1254}
                         className="w-[clamp(8.5rem,22vw,11rem)] shrink-0"
                     />
-                    <div className="border-l border-current/20 pl-6">
+                    <div className="border-t border-current/20 pt-6 sm:border-t-0 sm:border-l sm:pt-0 sm:pl-6">
                         <h1 className="text-3xl font-semibold tracking-tight">Victor He</h1>
                         <p className="text-lg text-zinc-500 dark:text-tokyonight-storm-comment">
                             Senior Software Engineer
                         </p>
+                        <div className="mt-3 flex gap-4 text-sm">
+                            <a
+                                href="https://github.com/VictorHeDev"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="underline underline-offset-4 hover:opacity-70"
+                            >
+                                GitHub
+                            </a>
+                            <a
+                                href="https://www.linkedin.com/in/victor-he/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="underline underline-offset-4 hover:opacity-70"
+                            >
+                                LinkedIn
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="flex flex-col gap-4 text-base leading-7">
