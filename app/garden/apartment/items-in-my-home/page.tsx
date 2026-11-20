@@ -5,10 +5,10 @@ export default function ItemsInMyHomePage() {
         <div className="flex flex-col flex-1 items-center justify-center font-sans">
             <main className="flex flex-1 w-full max-w-3xl flex-col gap-6 py-32 px-16">
                 <Link
-                    href="/blog"
+                    href="/garden"
                     className="text-sm underline underline-offset-4 hover:opacity-70"
                 >
-                    Back to blog
+                    Back to garden
                 </Link>
                 <header>
                     <p className="text-sm font-medium text-zinc-500 dark:text-tokyonight-storm-comment">

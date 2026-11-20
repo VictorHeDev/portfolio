@@ -7,7 +7,7 @@ export default function Nav() {
             <div className="flex gap-4">
                 <Link href="/">Home</Link>
                 <Link href="/projects">Projects</Link>
-                <Link href="/blog">Blog</Link>
+                <Link href="/garden">Garden</Link>
             </div>
         </nav>
     )
