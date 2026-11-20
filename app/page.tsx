@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
     return (
         <div className="flex flex-col flex-1 items-center justify-center font-sans">
-            <main className="flex flex-1 w-full max-w-3xl flex-col gap-6 py-32 px-6 sm:px-16">
+            <main className="flex flex-1 w-full max-w-3xl flex-col gap-6 pt-12 pb-32 px-6 sm:px-16">
                 <div className="flex w-full flex-col items-center gap-8 rounded-2xl border border-current/10 bg-zinc-50 p-6 sm:flex-row dark:bg-tokyonight-storm-bg-highlight">
                     <Image
                         src="/icon.png"
